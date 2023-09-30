@@ -7,7 +7,7 @@
     <style>
         /* Footer Styles */
         footer {
-            background-color: #333;
+            background-color: #591852;
             color: #fff;
             padding: 20px 0;
             text-align: left;
@@ -42,7 +42,8 @@
         }
 
         .footer-column ul li a:hover {
-            color: #f1c40f; /* Change to your desired hover color */
+            color: #d6a1d0;
+			color:#8c7289; /* Change to your desired hover color */
         }
 
         /* Responsive styling */
