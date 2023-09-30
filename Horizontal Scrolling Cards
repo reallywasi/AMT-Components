@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .gapcards {
+      overflow-x: scroll; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent cards from wrapping to the next line */
+    }
+
+    .scroll-container {
+      display: inline-block; /* Make the container inline to enable scrolling */
+      text-align: center; /* Center-align card content */
+    }
+
+    .card {
+  max-width: 100%;
+	  min-width:300px;
+      height: 300px;
+      display: inline-block;
+      margin-right: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center; /* Center-align card content */
+    }
+
+    .card-image {
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+      margin-bottom: 10px;
+      border: 2px solid black; /* Add a solid black border */
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .card-price {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <section class="gap gapcards">
+    <div class="scroll-container">
+      <div class="card">
+        <img class="card-image" src="https://www.westside.com/cdn/shop/products/300926905BLACKWHITE_2_800x.jpg?v=1673518732" alt="Product Image">
+        <div class="card-title">Product Title</div>
+        <div class="card-price">$19.99</div>
+      </div>
+      <div class="card">
+        <img class="card-image" src="https://www.westside.com/cdn/shop/products/300926905BLACKWHITE_2_800x.jpg?v=1673518732" alt="Product Image">
+        <div class="card-title">Product Title</div>
+        <div class="card-price">$19.99</div>
+      </div>
+      <div class="card">
+        <img class="card-image" src="https://www.westside.com/cdn/shop/products/300926905BLACKWHITE_2_800x.jpg?v=1673518732" alt="Product Image">
+        <div class="card-title">Product Title</div>
+        <div class="card-price">$19.99</div>
+      </div>
+      <div class="card">
+        <img class="card-image" src="https://www.westside.com/cdn/shop/products/300926905BLACKWHITE_2_800x.jpg?v=1673518732" alt="Product Image">
+        <div class="card-title">Product Title</div>
+        <div class="card-price">$19.99</div>
+      </div>
+      <div class="card">
+        <img class="card-image" src="https://www.westside.com/cdn/shop/products/300926905BLACKWHITE_2_800x.jpg?v=1673518732" alt="Product Image">
+        <div class="card-title">Product Title</div>
+        <div class="card-price">$19.99</div>
+      </div>
+      <!-- Repeat the above card structure as needed -->
+    </div>
+  </section>
+</body>
+</html>
